@@ -64,13 +64,23 @@ html {
 .ceramic-button {
   background-color: #bb828b;
 }
+.subtext {
+  color: black;
+  font-weight: bold;
+}
+.button-items {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
 
 @media (max-width: 768px) {
   .bg-image {
     display: block;
   }
   .logo_div {
-    padding-top: 5rem;
+    padding-top: 2rem;
     margin-bottom: 4rem;
   }
   .logo {
@@ -83,11 +93,13 @@ html {
     width: 16rem;
   }
   .button {
-    margin-bottom: 2rem;
     width: 8rem;
   }
   .button-text {
     font-size: 3rem;
     margin: 1.5rem 0 2rem 0;
+  }
+  .subtext {
+    margin-bottom: 2rem;
   }
 }
