@@ -10,6 +10,10 @@ html {
   background-size: cover;
   height: 100%;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .logo_div {
   display: flex;
@@ -19,6 +23,13 @@ html {
 }
 .logo {
   width: 40rem;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .buttons {
   display: flex;
@@ -55,6 +66,16 @@ html {
 }
 
 @media (max-width: 768px) {
+  .bg-image {
+    display: block;
+  }
+  .logo_div {
+    padding-top: 5rem;
+    margin-bottom: 4rem;
+  }
+  .logo {
+    width: 20rem;
+  }
   .buttons {
     flex-direction: column;
   }
@@ -62,6 +83,11 @@ html {
     width: 16rem;
   }
   .button {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    width: 8rem;
+  }
+  .button-text {
+    font-size: 3rem;
+    margin: 1.5rem 0 2rem 0;
   }
 }
