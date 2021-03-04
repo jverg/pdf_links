@@ -1,0 +1,48 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg-image {
+  background-image: url("/images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.button {
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2rem;
+  border-radius: 100%;
+  font-size: 8rem;
+  width: 14rem;
+  font-weight: bold;
+}
+.red-button {
+  background-color: #a1374b;
+}
+.blue-button {
+  background-color: #4b6370;
+}
+.yellow-button {
+  background-color: #dcb455;
+}
+.ceramic-button {
+  background-color: #bb828b;
+}
