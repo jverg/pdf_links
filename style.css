@@ -1,8 +1,12 @@
+@font-face {
+  font-family: "cf";
+  src: url("/cf.ttf") format("truetype");
+}
 body,
 html {
   height: 100%;
   margin: 0;
-  font-family: "Helvetica";
+  font-family: "cf";
 }
 .bg-image {
   background-image: url("/images/background.png");
@@ -55,7 +59,6 @@ html {
 }
 .red-button {
   background-color: #a1374b;
-  font-weight: bold;
 }
 .blue-button {
   background-color: #4b6370;
@@ -68,8 +71,8 @@ html {
 }
 .subtext {
   color: black;
-  font-weight: bold;
   font-size: 32px;
+  letter-spacing: 0.4px;
 }
 .button-items {
   display: flex;
