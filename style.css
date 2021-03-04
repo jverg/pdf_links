@@ -67,6 +67,7 @@ html {
 .subtext {
   color: black;
   font-weight: bold;
+  font-size: 32px;
 }
 .button-items {
   display: flex;
