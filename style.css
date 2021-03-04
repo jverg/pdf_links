@@ -3,7 +3,6 @@ html {
   height: 100%;
   margin: 0;
 }
-
 .bg-image {
   background-image: url("/images/background.png");
   background-position: center;
@@ -11,10 +10,16 @@ html {
   background-size: cover;
   height: 100%;
   color: white;
+}
+.logo_div {
   display: flex;
   justify-content: center;
+  margin-bottom: 8rem;
+  padding-top: 10rem;
 }
-
+.logo {
+  width: 40rem;
+}
 .buttons {
   display: flex;
   justify-content: center;
@@ -24,18 +29,20 @@ html {
 .button {
   border: none;
   color: black;
-  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 2rem;
+  margin: 0 1rem;
   border-radius: 100%;
-  font-size: 8rem;
   width: 14rem;
-  font-weight: bold;
+}
+.button-text {
+  font-size: 8rem;
+  margin: 1.5rem 0 3rem 0;
 }
 .red-button {
   background-color: #a1374b;
+  font-weight: bold;
 }
 .blue-button {
   background-color: #4b6370;
@@ -45,4 +52,16 @@ html {
 }
 .ceramic-button {
   background-color: #bb828b;
+}
+
+@media (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .logo {
+    width: 16rem;
+  }
+  .button {
+    margin-bottom: 4rem;
+  }
 }
