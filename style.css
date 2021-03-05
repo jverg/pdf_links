@@ -93,10 +93,10 @@ html {
   .logo_div {
     padding-top: 2rem;
     margin-bottom: 2rem;
-    height: 2rem;
+    height: 4rem;
   }
   .logo {
-    width: 10rem;
+    width: 12rem;
   }
   .buttons {
     flex-direction: column;
