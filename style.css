@@ -101,9 +101,6 @@ html {
   .buttons {
     flex-direction: column;
   }
-  .logo {
-    width: 9rem;
-  }
   .button {
     width: 4rem;
   }
