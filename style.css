@@ -93,6 +93,7 @@ html {
   .logo_div {
     padding-top: 2rem;
     margin-bottom: 2rem;
+    height: 2rem;
   }
   .logo {
     width: 10rem;
