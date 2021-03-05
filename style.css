@@ -58,8 +58,8 @@ html {
 }
 .button-text {
   font-family: "cf";
-  font-size: 8rem;
-  margin: 1.5rem 0 3rem 0;
+  font-size: 7rem;
+  margin: 3rem 0 3.5rem 10px;
   letter-spacing: 4px;
 }
 .red-button {
