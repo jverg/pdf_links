@@ -95,6 +95,9 @@ html {
   .logo {
     width: 30rem;
   }
+  .logo_div {
+    padding-top: 1rem;
+  }
   .button {
     border: none;
     color: black;
@@ -103,7 +106,7 @@ html {
     display: inline-block;
     margin: 0 1.5rem;
     border-radius: 100%;
-    width: 8rem;
+    width: 7rem;
   }
 }
 
