@@ -1,6 +1,6 @@
 @font-face {
   font-family: "cf";
-  src: url("/cf.ttf") format("truetype");
+  src: url("./cf.ttf") format("truetype");
 }
 body,
 html {
@@ -9,7 +9,7 @@ html {
   font-family: "cf";
 }
 .bg-image {
-  background-image: url("/images/background.png");
+  background-image: url("./images/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
